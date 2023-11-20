@@ -1,0 +1,432 @@
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    color:#261f1d;
+    background-color: white;
+}
+main {
+    margin-right: 0;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-left: 95px;
+    background-color: #fffcf7;;
+    
+}
+#intro {
+    margin-right: 0;
+    display:grid;
+    width:100%;
+    max-width: 100%;
+}
+h1{
+    font-weight: 50;
+    letter-spacing: -0.05em;
+    font-family: 'Practice Display';
+    font-size: 50px;
+    line-height: 48px;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 80px;
+    padding-bottom: 90px;
+    justify-content: center;
+}
+#img1 {
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+}
+
+#bts{
+    background-image: linear-gradient(rgba(254, 204, 91, 0.5), rgba(254, 204, 91, 0.5)), url('https://www.marcylabschool.org/build-the-skills-bg.svg');
+    height: 115vh;
+    margin:0;
+    position: relative;
+    transform: translateY(-5px);
+    overflow: hidden;
+    box-sizing:border-box;
+    
+}
+h2 {
+    font-weight: 400;
+    box-sizing: border-box;
+    font-size: 188px;
+    line-height: 90%;
+    margin:0;
+    letter-spacing: -0.07em;
+    padding-left: 60px;
+}
+.y {
+    
+    box-sizing:border-box;
+    transform: translateY(-70px);
+    height: 100%
+}
+.y h1 {
+    margin-top: 20px;
+}
+.howButton {
+    position: relative;
+    transform: translateY(-120px);
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.003em;
+    width: 230px;
+    color: white;
+    background-color: #261f1d;
+    text-align: center;
+    box-sizing: border-box;
+    height: 55px
+}
+.howButton p{
+    transform: translateY(4px);
+}
+
+#bys {
+    padding-top: 100px;
+    background-color: #cfd9e3;
+    transform: translateY(-0.5em);
+    height: 95vh;
+    overflow: hidden;
+}
+
+#bys .howButton {
+    position: relative;
+   transform: translate(60px,-60px)
+}
+#button2 p , #button3 p{
+    transform: translateY(14px);
+}
+#animation1 {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    transition: all 0s ease-in;
+}
+#btw {
+    position: relative;
+    background-color: #a6c2b4;
+    transform: translateY(-8px);
+    height: 95vh;
+    padding-top: 100px;
+    overflow: hidden;
+    z-index: 2;
+}
+#button3 {
+    position: relative;
+    transform: translate(60px,-60px);
+   
+}
+ #btw h2{
+}
+#animation2 {
+    display: flex;
+    width: 1vh;
+    height: 1vh;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #327a5f;
+    border-radius: 100%;
+    z-index: -1;
+    transform-origin: center center;
+    transform: scale(1);
+}
+
+h3 {
+    font-size: 45px;
+    font-weight: normal;
+    word-spacing: -0.1em;
+}
+
+#you h3, #med {
+    border-top: 6px solid #261f1d;
+    padding-top: 12px;
+    width: 95%;
+    margin-bottom: 15px;
+}
+#you{
+    padding-left: 60px;
+    padding-top: 70px;
+    height: 100vh
+}
+p {
+    font-weight: 500;
+}
+#you p {
+    margin-top: 0;
+    width: 42%
+}
+#fellow-examples {
+    display: flex;
+    margin-top: 50px
+}
+ h4 {
+    font-weight: 500;
+    font-size: 23px;
+    margin-bottom: 0;
+    margin-top: 15px;
+ }
+ .fellow {
+    margin: 0;
+ }
+ #fellow-examples p {
+    width:90%;
+ }
+ #devonte-quote {
+    background-color: #fecc5b;
+    height: 90vh
+ }
+ #devq {
+    font-size: 72px;
+    line-height: 1em;
+ }
+ #devonte-quote p {
+    position: relative;
+    font-size: 22px;
+    width: 30%;
+    padding-left: 60px;
+    top: -40px;
+ }
+ #devonte-quote img {
+    margin-bottom: 0;
+ }
+ #starts {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    top: -1vh;
+    margin-top:0;
+    padding-top:0;
+    height: 80vh;
+    background-color: #cfd9e3;;
+    z-index: 10;
+ }
+ #starts h3 {
+    font-weight: 500;
+    position: relative;
+    padding-left: 60px;
+    padding-top: 70px;
+    top: 100px;
+    width : 20%;
+    line-height: 1em;
+ }
+ #starts iframe {
+    padding-top : 60px;
+ }
+ #media {
+    height: 90vh;
+    padding-top: 80px;
+    padding-left: 60px;
+ }
+ #news {
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+ }
+ #med h3 {
+    width: 40%;
+    margin-top:0;
+    padding-bottom: 5px;
+ }
+#news h4 {
+    width:300px
+}
+ #news p {
+    font-size: 15px;
+    width:270px
+ }
+ #news div {
+    margin-right: 10px
+ }
+ .grey {
+    color: lightgrey
+ }
+ #why-you {
+    padding-left: 60px;
+    margin-top:0; /* Your desired background color */
+    background: linear-gradient(rgba(207, 217, 227, 0.5), rgba(207, 217, 227, 0.5)), url(https://www.marcylabschool.org/_next/image?url=%2Fstart-page-why-you-bg.jpg&w=3840&q=75);
+    height : 160vh;
+    filter: saturate(2.3);
+
+ }
+#blue {
+    display:flex;
+    flex-direction: column;
+}
+.border {
+    border-top: 1px solid black;
+    width: 90%;
+    padding-left: 60px;
+}
+#intro1 {
+    display : flex;
+    height: 50vh;
+    margin-bottom: 0;
+    
+}
+#whyy {
+    position: relative;
+    width:50%;
+    margin: 0;
+    top: 50px;
+    letter-spacing: -0.05em;
+}
+#left{
+    line-height: 1em;
+    position: relative;
+    top: -50px;
+    margin-top: 0;
+    font-size: 30px;
+    width: 50%;
+    letter-spacing: -0.03em;
+    margin-left: 47%;
+    padding-bottom: 30px;
+    
+}
+#bold {
+    font-weight: 500;
+    margin-bottom: 0;
+    position:relative;
+    top:-50px;
+    font-size: 33px;
+    width: 50%;
+    margin-left: 40%;
+    line-height: 1em;
+    padding-left: 2.5%
+}
+.unbold{
+    right: 60px;
+    line-height: 1em;
+    position: relative;
+    margin-top: 0;
+    font-size: 30px;
+    width: 50%;
+    letter-spacing: -0.03em;
+}
+#reason1, #reason2, #reason3{
+    position: relative;
+    padding-bottom: 120px ;
+    padding-top: 20px;
+}
+#reason4 {
+    position:relative;
+  padding-top: 20px;
+}
+footer {
+    position: relative;
+    margin-left: 95px;
+    background-color: #b3bbb0;
+    transform: translateY(-45px) ;
+    height: 50vh;
+    margin-bottom: 0
+}
+footer h3 {
+    padding-top: 50px;
+    width: 40%;
+    padding-left: 60px;
+    letter-spacing: -0.2vh;
+}
+#email {
+    background-color: #e1e3e0;
+    width: 1000px;
+    height: 60px;
+    margin-left: 60px;
+    font-size: 30px;
+    font-family: 'Helvetica Neue';
+    color:#261f1d
+}
+footer p {
+    padding-left: 60px;
+    padding-top: 140px;
+    background-color: #b3bbb0;
+    height: 100px;
+    margin:0
+}
+#nav {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.nav h2 {
+    font-size: 10px;
+    
+}
+.nav{
+    padding-bottom: 2.73%;
+    padding-top : 2.73%;
+    margin:0;
+    width: 100%;
+    font-size: 65px;
+}
+#one {
+    background-color: #cfd9e3;
+}
+#two {
+    background-color: #327a5f;
+}
+#three {
+    background-color: #eebc32;
+}
+#four {
+    background-color: #ef541e;
+}
+#five {
+    background-color: #f8bac9;
+}
+#six {
+    background-color: #2274b5;
+}
+#bar {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 95px;
+    background-color: #261f1d;
+    margin-left: 167vh;
+}
+#bar p {
+    color:white;
+    position: absolute;
+    font-size: 50px;
+    padding-top: 690px;
+    padding-left: 25px;
+}
+#rotate{
+    position:relative;
+    padding-right: 31px;
+    display: flex;
+    font-size: 32px;
+    top: 95px;
+    z-index:100;
+    color: white;
+    writing-mode: vertical-rl;
+    letter-spacing: 0.005px;
+}
+#logo {
+    position: absolute;
+    padding-left: 12px;
+    transform: rotate(90deg);
+}
+#side-screen {
+    display:flex;
+    position: fixed;
+    margin-right: 93.46%;
+    width: 100%;
+    right: 30px;
+    transition: transform 0.3s ease-in-out, margin-right 0.5s ;
+    z-index: 1000;
+}
+#side-screen:hover{
+    transform :  translateX(2vh);
+}
